@@ -1,137 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gautam Kumar - Resume</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #1a5f7a;
-            border-bottom: 2px solid #1a5f7a;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #2e8bc0;
-            border-bottom: 1px solid #2e8bc0;
-            padding-bottom: 5px;
-        }
-        .contact-info {
-            background-color: #f0f8ff;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .project {
-            background-color: #e6f3ff;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        li::before {
-            content: "•";
-            color: #2e8bc0;
-            display: inline-block;
-            width: 1em;
-            margin-left: -1em;
-        }
+      body {
+        font-family: "Calibri", sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #fff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #2c3e50;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-bottom: 3px solid #3498db;
+        padding-bottom: 10px;
+      }
+      h2 {
+        font-size: 24px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 5px;
+      }
+      h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .contact-info {
+        background-color: #ecf0f1;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .contact-info a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+      .section {
+        margin-bottom: 25px;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      ul li {
+        margin-bottom: 8px;
+        position: relative;
+        padding-left: 20px;
+      }
+      ul li::before {
+        content: "▹";
+        color: #3498db;
+        position: absolute;
+        left: 0;
+      }
+      .project {
+        background-color: #f0f8ff;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border-left: 4px solid #3498db;
+      }
+      .education-item,
+      .certification-item {
+        margin-bottom: 15px;
+      }
+      .education-item p,
+      .certification-item p {
+        margin: 5px 0;
+      }
     </style>
-</head>
-<body>
-    <h1>GAUTAM KUMAR</h1>
-    <div class="contact-info">
-        <p>ECE Student at Gurukula Kangri University, Haridwar<br>
-        Email: 216320017@gkv.ac.in | Phone: +917463012034<br>
-        LinkedIn: <a href="https://www.linkedin.com/in/gautam-kumar-ba09b0244">linkedin.com/in/gautam-kumar-ba09b0244</a></p>
-    </div>
+  </head>
+  <body>
+    <div class="container">
+      <h1>GAUTAM KUMAR</h1>
+      <div class="contact-info">
+        <p>
+          ECE Student at Gurukula Kangri University, Haridwar<br />
+          Email: 216320017@gkv.ac.in | Phone: +917463012034<br />
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/gautam-kumar-ba09b0244"
+            >linkedin.com/in/gautam-kumar-ba09b0244</a
+          >
+        </p>
+      </div>
 
-   <div class="section">
+      <div class="section">
         <h2>PROFILE</h2>
-        <p>Dedicated Electronics and Communication Engineering student with a passion for web development and programming. Proficient in various web technologies and programming languages, with a solid understanding of data structures and algorithms. Eager to apply theoretical knowledge to practical solutions in a professional setting. Committed to continuous learning and staying updated with industry trends.</p>
-    </div>
+        <p>
+          Dedicated Electronics and Communication Engineering student with a
+          passion for web development and programming. Proficient in various web
+          technologies and programming languages, with a solid understanding of
+          data structures and algorithms. Eager to apply theoretical knowledge
+          to practical solutions in a professional setting. Committed to
+          continuous learning and staying updated with industry trends.
+        </p>
+      </div>
 
-    <div class="section">
+      <div class="section">
         <h2>EDUCATION</h2>
-        <p><strong>Gurukula Kangri University, Haridwar</strong><br>
-        B.Tech in Electronics and Communication Engineering<br>
-        <em>2021 - 2025 (Expected)</em><br>
-        CGPA: 7.47/10.0</p>
+        <div class="education-item">
+          <p><strong>Gurukula Kangri University, Haridwar</strong></p>
+          <p>B.Tech in Electronics and Communication Engineering</p>
+          <p><em>2021 - 2025 (Expected)</em></p>
+          <p>CGPA: 7.47/10.0</p>
+        </div>
 
-        <p><strong>R.J.R.R.S.D. College</strong><br>
-        Higher Secondary Education<br>
-        <em>2017 - 2019</em></p>
-    </div>
+        <div class="education-item">
+          <p><strong>R.J.R.R.S.D. College</strong></p>
+          <p>Higher Secondary Education</p>
+          <p><em>2017 - 2019</em></p>
+        </div>
+      </div>
 
-    <div class="section">
+      <div class="section">
         <h2>TECHNICAL SKILLS</h2>
         <ul>
-            <li>Programming Languages: JavaScript, Python, C</li>
-            <li>Web Technologies: HTML, CSS, Responsive Web Design</li>
-            <li>Database: SQL</li>
-            <li>Other: Data Structures, Algorithms, Object-Oriented Programming</li>
+          <li>Programming Languages: JavaScript, Python, C</li>
+          <li>Web Technologies: HTML, CSS, Responsive Web Design</li>
+          <li>Database: SQL</li>
+          <li>
+            Other: Data Structures, Algorithms, Object-Oriented Programming
+          </li>
         </ul>
-    </div>
+      </div>
 
-    <div class="section">
+      <div class="section">
         <h2>CERTIFICATIONS</h2>
-        <p><strong>JavaScript Algorithms and Data Structures</strong> - FreeCodeCamp (2024)</p>
-        <ul>
-            <li>Mastered practical JavaScript algorithms through hands-on training</li>
-            <li>Developed a strong foundation in data structures and algorithms</li>
-        </ul>
+        <div class="certification-item">
+          <p>
+            <strong>JavaScript Algorithms and Data Structures</strong> -
+            FreeCodeCamp (2024)
+          </p>
+          <ul>
+            <li>
+              Mastered practical JavaScript algorithms through hands-on training
+            </li>
+            <li>
+              Developed a strong foundation in data structures and algorithms
+            </li>
+          </ul>
+        </div>
 
-        <p><strong>Responsive Web Design</strong> - FreeCodeCamp (2023)</p>
-        <ul>
-            <li>Created adaptive web designs for various devices and screen sizes</li>
-            <li>Implemented responsive design principles including flexible grids and media queries</li>
-        </ul>
-    </div>
+        <div class="certification-item">
+          <p><strong>Responsive Web Design</strong> - FreeCodeCamp (2023)</p>
+          <ul>
+            <li>
+              Created adaptive web designs for various devices and screen sizes
+            </li>
+            <li>
+              Implemented responsive design principles including flexible grids
+              and media queries
+            </li>
+          </ul>
+        </div>
+      </div>
 
-    <div class="section">
+      <div class="section">
         <h2>PROJECTS</h2>
         <div class="project">
-            <h3>Weather Dashboard Web Application</h3>
-            <ul>
-                <li>Developed a responsive weather dashboard using HTML, CSS, and JavaScript</li>
-                <li>Integrated a third-party weather API to fetch and display real-time weather data</li>
-                <li>Implemented geolocation to automatically detect user's location for weather information</li>
-                <li>Created a user-friendly interface with a 5-day forecast and searchable locations</li>
-                <li>Utilized local storage to save user's recent searches for quick access</li>
-            </ul>
+          <h3>Weather Dashboard Web Application</h3>
+          <ul>
+            <li>
+              Developed a responsive weather dashboard using HTML, CSS, and
+              JavaScript
+            </li>
+            <li>
+              Integrated a third-party weather API to fetch and display
+              real-time weather data
+            </li>
+            <li>
+              Implemented geolocation to automatically detect user's location
+              for weather information
+            </li>
+            <li>
+              Created a user-friendly interface with a 5-day forecast and
+              searchable locations
+            </li>
+            <li>
+              Utilized local storage to save user's recent searches for quick
+              access
+            </li>
+          </ul>
         </div>
         <div class="project">
-            <h3>Task Management System</h3>
-            <ul>
-                <li>Built a full-stack task management application using Python (Flask) for the backend and JavaScript for the frontend</li>
-                <li>Designed and implemented a SQL database to store user accounts and task information</li>
-                <li>Created RESTful API endpoints for CRUD operations on tasks</li>
-                <li>Developed a responsive frontend interface using HTML, CSS, and JavaScript</li>
-                <li>Implemented user authentication and authorization to ensure data privacy</li>
-                <li>Added features such as task categorization, due dates, and priority levels</li>
-            </ul>
+          <h3>Task Management System</h3>
+          <ul>
+            <li>
+              Built a full-stack task management application using Python
+              (Flask) for the backend and JavaScript for the frontend
+            </li>
+            <li>
+              Designed and implemented a SQL database to store user accounts and
+              task information
+            </li>
+            <li>Created RESTful API endpoints for CRUD operations on tasks</li>
+            <li>
+              Developed a responsive frontend interface using HTML, CSS, and
+              JavaScript
+            </li>
+            <li>
+              Implemented user authentication and authorization to ensure data
+              privacy
+            </li>
+            <li>
+              Added features such as task categorization, due dates, and
+              priority levels
+            </li>
+          </ul>
         </div>
-    </div>
+      </div>
 
-    <div class="section">
+      <div class="section">
         <h2>ADDITIONAL SKILLS</h2>
         <ul>
-            <li>Project Management</li>
-            <li>Strong Communication</li>
-            <li>Continuous Learning and Adaptability</li>
+          <li>Project Management</li>
+          <li>Strong Communication</li>
+          <li>Continuous Learning and Adaptability</li>
         </ul>
+      </div>
     </div>
-</body>
+  </body>
 </html>
